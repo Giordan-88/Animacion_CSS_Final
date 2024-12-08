@@ -7,7 +7,7 @@
     <title>CafDePaso</title>
     <link rel="stylesheet" href="assets/css/style.css">
     <script src="https://kit.fontawesome.com/3e37133f8e.js" crossorigin="anonymous"></script>
-   
+
 </head>
 
 <body>
@@ -15,41 +15,45 @@
     <header>
         <h1>Cafeteria de Paso</h1>
         <img src="assets/img/Logo.png" alt="Logo">
-        <h1>Enjoy & Relax</h1>
+        <h1 class="eyr">Enjoy & Relax</h1>
     </header>
 
 
     <aside>
-
-        <a class="vals" href="#Promociones">Promociones</a>
-        <a class="vals" href="#Menu">Menu</a>
-        <a class="vals" href="#Bebestibles">Bebestibles</a>
-        <a class="vals" id="modal" href="#openModal">Reservar</a>
-
-
-        <div id="openModal" class="modalDialog">
-            <div>
-                <a href="#close" title="Close" class="close">X</a>
-                <h2>Reservar</h2>
-                <form>
-                    <label for="fname">Nombre Apellido:</label><br>
-                    <input type="text" id="fname" name="fname" value=""><br>
-                    <label for="lname">Hora:</label><br>
-                    <input type="text" id="lname" name="lname" value=""><br>
-                    <label for="lname">Cantidad Personas:</label><br>
-                    <input type="text" id="lname" name="lname" value=""><br><br>
-                    <input type="submit" value="Enviar">
-                  </form>
-                <br>
-                <br>
-                <p>NOTA: Le recordamos que solo se espera un máximo de 10 minutos después de la hora reservada. Pasado
-                    ese tiempo, su reserva será cancelada y el lugar estará disponible para otros clientes. Agradecemos
-                    su comprensión.</p>
-                
-            </div>
+        <div class="head1">
+            <a class="vals" href="#Promociones">Promociones</a>
+            <a class="vals" href="#Menu">Menu</a>
+            <a class="vals" href="#Bebestibles">Bebestibles</a>
         </div>
-        <a class="vals" href="#Footer">Contacto</a>
+        <div class="head2">
+            <a class="vals" id="modal" href="#openModal">Reservar</a>
 
+
+            <div id="openModal" class="modalDialog">
+                <div>
+                    <a href="#close" title="Close" class="close">X</a>
+                    <h2>Reservar</h2>
+                    <form>
+                        <label for="fname">Nombre Apellido:</label><br>
+                        <input type="text" id="fname" name="fname" value=""><br>
+                        <label for="lname">Hora:</label><br>
+                        <input type="text" id="lname" name="lname" value=""><br>
+                        <label for="lname">Cantidad Personas:</label><br>
+                        <input type="text" id="lname" name="lname" value=""><br><br>
+                        <input type="submit" value="Enviar">
+                    </form>
+                    <br>
+                    <br>
+                    <p>NOTA: Le recordamos que solo se espera un máximo de 10 minutos después de la hora reservada.
+                        Pasado
+                        ese tiempo, su reserva será cancelada y el lugar estará disponible para otros clientes.
+                        Agradecemos
+                        su comprensión.</p>
+
+                </div>
+            </div>
+            <a class="vals end" href="#Footer">Contacto</a>
+        </div>
 
     </aside>
 
