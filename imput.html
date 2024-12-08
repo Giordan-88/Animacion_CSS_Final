@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CafDePaso</title>
+    <link rel="stylesheet" href="assent/css/style.css">
+    <script src="https://kit.fontawesome.com/3e37133f8e.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+
+    <header>
+        <h1>Cafeteria de Paso</h1>
+        <img src="assent/img/Logo.png" alt="Logo">
+        <h1>Enjoy & Relax</h1>
+    </header>
+
+
+    <aside>
+
+        <a class="vals" href="#Promociones">Promociones</a>
+        <a class="vals" href="#Menu">Menu</a>
+        <a class="vals" href="#Bebestibles">Bebestibles</a>
+        <a class="vals" id="modal" href="#openModal">Reservar</a>
+
+
+        <div id="openModal" class="modalDialog">
+            <div>
+                <a href="#close" title="Close" class="close">X</a>
+                <h2>Reservar</h2>
+                <form>
+                    <label for="fname">Nombre Apellido:</label><br>
+                    <input type="text" id="fname" name="fname" value=""><br>
+                    <label for="lname">Hora:</label><br>
+                    <input type="text" id="lname" name="lname" value=""><br>
+                    <label for="lname">Cantidad Personas:</label><br>
+                    <input type="text" id="lname" name="lname" value=""><br><br>
+                    <input type="submit" value="Enviar">
+                  </form>
+                <br>
+                <br>
+                <p>NOTA: Le recordamos que solo se espera un máximo de 10 minutos después de la hora reservada. Pasado
+                    ese tiempo, su reserva será cancelada y el lugar estará disponible para otros clientes. Agradecemos
+                    su comprensión.</p>
+                
+            </div>
+        </div>
+        <a class="vals" href="#Footer">Contacto</a>
+
+
+    </aside>
+
+    <main>
+        <span id="Promociones"></span>
+        <div class="headpromociones">
+            <h2>Promociones</h2>
+
+        </div>
+
+        <div class="promociones">
+            <div class="card">
+                <img src="assent/img/Desayono-americano.webp" alt="">
+                <h2>Desayuno Americano</h2>
+                <p>Desayuno americano clásico con huevos revueltos, tocino crujiente, salchichas, papas fritas, pan
+                    tostado, acompañado de café recién hecho y jugo de naranja natural.</p>
+                <h3>$10.000</h3>
+            </div>
+            <div class="card">
+                <img src="assent/img/ExtraPremium.jpg" alt="">
+                <h2>Desayuno Delux</h2>
+                <p>Desayuno Deluxe: una selección de frutas frescas de la estación, tostadas crujientes con mermeladas
+                    artesanales, huevos revueltos acompañados de tocino y salchichas, yogur cremoso con frutos secos,
+                    todo acompañado de un café recién hecho y jugo natural recién exprimido.</p>
+                <h3>$16.000</h3>
+            </div>
+
+        </div>
+        <span id="Menu"></span>
+        <div class="headmenu">
+            <h2>Menu</h2>
+        </div>
+
+        <div class="menu">
+            <div class="card">
+                <img src="assent/img/creeps.jpg" alt="">
+                <h2>Creeps con Arandanos</h2>
+                <p>Crepes rellenas con una variedad de opciones, como crema de queso, chocolate o crema pastelera,
+                    acompañadas de arándanos frescos o en salsa.</p>
+                <h3>$7.000</h3>
+            </div>
+
+            <div class="card">
+                <img src="assent/img/fruta.jpg" alt="">
+                <h2>Ensalada de Frutas</h2>
+                <p>Ensalada de frutas de la estación, una refrescante mezcla de frutas frescas y maduras,
+                    seleccionadas
+                    según la temporada, para ofrecer un sabor natural y vibrante.</p>
+                <h3>$4.000</h3>
+            </div>
+            <div class="card">
+                <img src="assent/img/omelet.jpg" alt="">
+                <h2>Omelet</h2>
+                <p>Omelet relleno con trozos de jamón, preparado a la perfección, suave y esponjoso, ideal para un
+                    desayuno delicioso y lleno de sabor.</p>
+                <h3>$4.500</h3>
+            </div>
+            <div class="card">
+                <img src="assent/img/sandwichprensa.jpg" alt="">
+                <h2>Sandwich Prensado</h2>
+                <p>Sándwich de jamón, queso, tomate fresco y tocino, prensado y calentado a la perfección, con pan
+                    crujiente con queso
+                    derretido y sabroso.</p>
+                <h3>$5.000</h3>
+            </div>
+            <div class="card">
+                <img src="assent/img/sandwichvariedades.jpg" alt="">
+                <h2>Variedades Sandwich</h2>
+                <p>Variedad de sándwiches en pan de molde, perfectos para compartir, con opciones de jamón, queso,
+                    pollo
+                    y vegetales, todos acompañados de deliciosos aderezos y frescos ingredientes.</p>
+                <h3>$4.250</h3>
+            </div>
+            <div class="card">
+                <img src="assent/img/waffles.jpg" alt="">
+                <h2>Waffles</h2>
+                <p>Disfruta de nuestros deliciosos waffles, acompañados de crema suave, frutas de la estación, leche
+                    condensada y un toque de
+                    azúcar flor. ¡Un dulce placer que te hará sonreír!</p>
+                <h3>$6.500</h3>
+            </div>
+            <div class="card">
+                <img src="assent/img/yogurdGranolaFruta.jpg" alt="">
+                <h2>Yogur con Granola</h2>
+                <p>Yogur natural acompañado de crocante granola y una selección de frutas frescas, creando una
+                    combinación perfecta de sabores y texturas.</p>
+                <h3>$3.750</h3>
+            </div>
+        </div>
+        <span id="Bebestibles"></span>
+        <div class="headbebestible">
+            <h2>Bebestibles</h2>
+        </div>
+
+        <div class="bebestible">
+            <div class="card">
+                <img src="assent/img/americano.webp" alt="">
+                <h2>Cafe</h2>
+                <p>Disfruta de un café americano suave o un espresso intenso, preparados con granos de alta calidad para
+                    un sabor inigualable en cada sorbo. ¡El café perfecto para cualquier momento!</p>
+                <h3>$2.900</h3>
+            </div>
+            <div class="card">
+                <img src="assent/img/cafeH.jpg" alt="">
+                <h2>Cafe Helado</h2>
+                <p>Disfruta de nuestros refrescantes cafés helados, perfectos para cualquier momento del día. ¡Fríos,
+                    cremosos y llenos de sabor!</p>
+                <h3>$4.900</h3>
+            </div>
+            <div class="card">
+                <img src="assent/img/Late.jpg" alt="">
+                <h2>Cafe Lates</h2>
+                <p>Disfruta de nuestros lattes cremosos, hechos con espresso y leche vaporizada. Personalízalos con
+                    sabores como vainilla, caramelo o avellana para un toque único. ¡La combinación perfecta de suavidad
+                    y sabor!</p>
+                <h3>$3.600</h3>
+            </div>
+            <div class="card">
+                <img src="assent/img/cafeHelado.jpg" alt="">
+                <h2>Frappuchinos</h2>
+                <p>Refresca tu día con nuestros frappuccinos, una deliciosa mezcla de café, hielo y crema. Puedes
+                    elegir entre sabores clásicos como vainilla, caramelo o chocolate. ¡Un toque helado y lleno de
+                    sabor!</p>
+                <h3>$4.200</h3>
+            </div>
+            <div class="card">
+                <img src="assent/img/frutasEspinaca.jpg" alt="">
+                <h2>Batidos de Frutas y Verduras</h2>
+                <p>Refresca tu día con nuestros batidos de frutas y verduras, preparados con ingredientes frescos y
+                    naturales. Una opción deliciosa y saludable para disfrutar en cualquier momento. ¡Llénate de energía
+                    y sabor!</p>
+                <h3>4.500</h3>
+            </div>
+            <div class="card">
+                <img src="assent/img/pomeloPiña.jpg" alt="">
+                <h2>Smothies</h2>
+                <p>Disfruta de nuestros batidos de frutas, hechos con leche o yogur cremoso. Una mezcla deliciosa y
+                    refrescante de sabores naturales, perfectos para cualquier momento del día. ¡Salud y sabor en cada
+                    sorbo!</p>
+                <h3>$4.900</h3>
+            </div>
+            <div class="card">
+                <img src="assent/img/jugoFrutas.jpg" alt="">
+                <h2>Jugo de Frutas </h2>
+                <p>Refresca tu día con nuestros jugos naturales de frutas, exprimidos al momento para conservar todo su
+                    sabor y frescura. ¡Una opción deliciosa y saludable para revitalizarte!</p>
+                <h3>$3.800</h3>
+            </div>
+        </div>
+
+    </main>
+
+    <footer>
+        <p id="Footer">&copy; 2021 CafeteriaDePaso. Todos los derechos reservados.</p>
+        <i class="fa-brands fa-square-instagram">@Cafeteriadepaso</i>
+
+    </footer>
+
+
+
+</body>
+
+</html>
